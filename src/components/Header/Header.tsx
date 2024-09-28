@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
+import { FC } from "react";
 
-const Header = () => {
+const Header: FC = () => {
    return (
       <header className="header">
          <nav className="header__nav">
             <div className="container">
-               <a className="nav__link-home" href="#">conduit</a>
+               <Link className="nav__link-home" to="/">conduit</Link>
                <ul className="nav__links-right">
-                  <li className="nav__link-wrapper"><a className="nav__link" href="#">Home</a></li>
-                  <li className="nav__link-wrapper"><a className="nav__link" href="#">Sing in</a></li>
-                  <li className="nav__link-wrapper"><a className="nav__link" href="#">Sing up</a></li>
+                  <li className="nav__link-wrapper"><Link className="nav__link" to="/">Home</Link></li>
+                  <li className="nav__link-wrapper"><Link className="nav__link" to="#">Sign in</Link></li>
+                  <li className="nav__link-wrapper"><Link className="nav__link" to="#">Sign up</Link></li>
                </ul>
             </div>
          </nav>
