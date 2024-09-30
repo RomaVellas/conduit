@@ -1,11 +1,10 @@
 import { FC } from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 const Footer: FC = () => {
    return (
-      <footer>
-         <a href="#">Fork on GitHub</ф>
+      <footer className="footer">
+         <a className="footer__link-github" href="https://github.com/RomaVellas/conduit"><text className="footer__text">Fork on GitHub</text></a>
       </footer>
    )
 }
