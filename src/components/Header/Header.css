@@ -1,0 +1,33 @@
+.container {
+   max-width: 1140px;
+   height: 56px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav__links-right {
+   display: flex;
+   gap: 16px;
+
+   font-family: "Source Sans Pro", sans-serif;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.8);
+
+}
+
+.nav__link {
+   color: rgba(0, 0, 0, 0.8);
+}
+
+.nav__link-home {
+   font-family: "Titillium Web", sans-serif;
+   color: rgb(92, 184, 92);
+   font-size: 24px;
+   font-weight: 700;
+}
