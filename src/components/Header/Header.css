@@ -1,33 +1,28 @@
 .container {
-   max-width: 1140px;
-   height: 56px;
-   margin-left: auto;
-   margin-right: auto;
-   padding-left: 15px;
-   padding-right: 15px;
+  height: 56px;
 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  gap: 864px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__links-right {
-   display: flex;
-   gap: 16px;
+  display: flex;
+  gap: 16px;
 
-   font-family: "Source Sans 3", sans-serif;
-   font-size: 16px;
-   color: rgba(0, 0, 0, 0.8);
-
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .nav__link {
-   color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .nav__link-home {
-   font-family: "Titillium Web", sans-serif;
-   color: rgb(92, 184, 92);
-   font-size: 24px;
-   font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(92, 184, 92);
+  font-size: 24px;
+  font-weight: 700;
 }

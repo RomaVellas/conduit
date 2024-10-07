@@ -14,7 +14,7 @@ const Header: FC = () => {
           </Link>
           <ul className="nav__links-right">
             <li className="nav__link-wrapper">
-              <Link className="nav__link" to="/">
+              <Link className="nav__link" to={PATH_HOME}>
                 Home
               </Link>
             </li>
