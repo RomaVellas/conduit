@@ -1,13 +1,9 @@
 .container {
-  max-width: 1140px;
   height: 56px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 
   display: flex;
-  justify-content: space-between;
+  gap: 864px;
+  justify-content: center;
   align-items: center;
 }
 

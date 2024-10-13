@@ -1,6 +1,7 @@
 import { FC } from "react";
-import "./Footer.css";
 import { PATH_TO_THE_PROJECT } from "./consts";
+
+import "./Footer.scss";
 
 const Footer: FC = () => {
   return (
