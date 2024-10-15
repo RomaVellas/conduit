@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { PATH_TO_THE_PROJECT } from "./consts";
+import { PATH_TO_THE_PROJECT } from "../../paths";
 
 import "./Footer.scss";
 
