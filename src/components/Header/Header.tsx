@@ -5,24 +5,24 @@ import "./Header.scss";
 
 const Header: FC = () => {
   return (
-    <header className="header">
-      <nav className="header__nav">
+    <header>
+      <nav>
         <div className="container">
           <Link className="nav__link-home" to="/">
             conduit
           </Link>
           <ul className="nav__links-right">
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to="/">
                 Home
               </Link>
             </li>
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to="#">
                 Sign in
               </Link>
             </li>
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to="#">
                 Sign up
               </Link>
