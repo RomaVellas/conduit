@@ -9,7 +9,6 @@ export default defineConfig({
     react(),
     createHtmlPlugin({
       minify: true,
-      entry: "src/main.tsx",
       template: "src/index.html",
     }),
   ],
