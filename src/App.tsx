@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout";
 import { PATH_HOME } from "./paths";
 
-import "./App.css";
+import "./App.scss";
 
 const App: FC = () => {
   return (

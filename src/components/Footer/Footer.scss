@@ -1,0 +1,27 @@
+.footer {
+  background: linear-gradient(#485563, #29323c);
+  height: 66px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  &__link-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

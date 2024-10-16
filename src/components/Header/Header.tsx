@@ -2,28 +2,28 @@ import { Link } from "react-router-dom";
 import { PATH_HOME } from "../../paths";
 import { FC } from "react";
 
-import "./Header.css";
+import "./Header.scss";
 
 const Header: FC = () => {
   return (
-    <header className="header">
+    <header>
       <nav className="header__nav">
         <div className="container">
           <Link className="nav__link-home" to={PATH_HOME}>
             conduit
           </Link>
           <ul className="nav__links-right">
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to={PATH_HOME}>
                 Home
               </Link>
             </li>
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to="#">
                 Sign in
               </Link>
             </li>
-            <li className="nav__link-wrapper">
+            <li>
               <Link className="nav__link" to="#">
                 Sign up
               </Link>
