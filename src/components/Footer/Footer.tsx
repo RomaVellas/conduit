@@ -7,7 +7,7 @@ const Footer: FC = () => {
   return (
     <footer className="footer">
       <a className="footer__link-github" href={PATH_TO_THE_PROJECT}>
-        <text>Fork on GitHub</text>
+        <h3>Fork on GitHub</h3>
       </a>
     </footer>
   );
